@@ -1,0 +1,103 @@
+.contact_global{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 70px;
+  
+}
+
+.contact-form {
+  background: #fff;
+  margin: 5px auto;
+  padding: 30px 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(26, 35, 126, 0.08);
+  border: 1px solid #e3e7ee;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.contact-form {
+  color: #0a8560;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.appel {
+  background: url(/image_projet/centre_appel.png) no-repeat center/cover;
+  border-right: 2px solid orange;
+  border-bottom: 4px solid orange;
+  text-align: center;
+  border-radius: 4px;
+  color: orange;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.contact {
+  border-left: 2px solid orange;
+  border-top: 4px solid orange;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 6px;
+  color: #0a8560;
+  font-weight: bold;
+}
+
+.contact-form input[type="email"],
+.contact-form input[type="tel"],
+.contact-form textarea {
+  width: 80%;
+  padding: 8px;
+  border: 1px solid #bfc9e1;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 1em;
+  background: #f4f6f8;
+  color: black;
+}
+
+.contact-form input[type="submit"] {
+  background: #0a8560;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 0;
+  width: 200px;
+  position: right: 0 ;
+  margin: 0 0 0 48%;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.contact-form input[type="submit"]:hover {
+  background: #0a8560;
+}
+.acces_rapide{
+  height: 45px;
+  width: auto;
+  text-align: center;
+  background-color: #ff9800;
+}
+
+.acces_rapide ul li{
+  height: 45px;
+  background-color: #0a8560;
+  text-align: center;
+  border-top: 2px solid #ff9800;
+  transition: background 0.5s;
+
+}
+.acces_rapide a{
+  color: white;
+  font-size: 1.2em;
+  
+}
+.acces_rapide ul li:hover{
+  background-color: #ff9800;
+  border:2px solid #0a8560 ;
+}
